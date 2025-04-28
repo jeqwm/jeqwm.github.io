@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors Used
+
+Primary #475490 
+Secondary #FFFFFF 
+Accent #848FBF
+Text #001884
+
+*/
+
+
+/* Fonts and Text Sizes */
+
+.manrope-text {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+.tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16pt;
+  }
+
+h1{
+    font-size: 36pt;
+}
+
+h2{
+    font-size: 30pt;
+}
+
+h3{
+    font-size: 24pt;
+}
+
+h4{
+    font-size: 20pt;
+}
+
+
+/* General and Home Page CSS  */
+
+body{
+    text-align: center;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #475490;
+}
+
+main{
+    width: 80vw;
+    margin: auto ;
+}
+
+.navbuttons{
+    padding: 5px;
+    margin: 10px;
+    background-color: #475490;
+}
+
+.nav{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+ul li{ 
+    list-style-type: none;
+}
+
+.expandedlogo{
+    background-image: url(/IMG/goldengate.png);
+    padding: 50px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.marginbottom{
+    margin-bottom: 100px;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.mission{
+    color: #001884;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.underlinea{
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.resize{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.network{
+    color: #001884;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+footer{
+    background-color: #475490;
+    padding: 100px;
+    color: #FFFFFF;
+}
+
+.textspacing{
+    margin-bottom: 25px;
+}
+
+/* About Page */
+
+.generalabout{
+    color: #001884;
+}
+
+.underlineb{
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+.img-about{
+    margin-bottom: 25px;
+}
+
+/* Contact Page */
+ 
+fieldset{
+    border: none;
+    border-radius: 25px;
+    background-color: #848FBF;
+    color: #FFFFFF;
+}
+
+.contactus{
+    margin-bottom: 25px;
+    text-decoration: underline;
+    font-size: 30pt;
+}
+
+.contactspace{
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    font-size: 16pt;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 16px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type=text]:hover {
+    width: 90%;
+    padding: 16px;
+    box-sizing: border-box;
+    border-bottom: solid rgb(255, 64, 0) 5px ;
+    border-radius: 10px;
+}
+
+input[type=email] {
+    width: 90%;
+    padding: 16px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type=email]:hover {
+    width: 90%;
+    padding: 16px;
+    box-sizing: border-box;
+    border-bottom: solid rgb(255, 64, 0) 5px ;
+    border-radius: 10px;
+}
+
+textarea[type=textarea] {
+    width: 90%;
+    height: 256px;
+    padding: 16px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+}
+
+textarea[type=textarea]:hover {
+    width: 90%;
+    height: 256px;
+    padding: 16px;
+    box-sizing: border-box;
+    border-bottom: solid rgb(255, 64, 0) 5px ;
+    border-radius: 10px;
+}
+
+.submit{
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #001884;
+    color: #FFFFFF;
+    font-size: 16pt;
+    box-sizing: border-box;
+    width: 25%;
+    margin-bottom: 50px;
+}
+
+.submit:hover{
+    border: solid 5px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #728cf8;
+    color: #FFFFFF;
+    font-size: 16pt;
+    box-sizing: border-box;
+    width: 25%;
+    margin-bottom: 50px;
+}
+
+.submit:active{
+    border: solid 5px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #f87272;
+    color: #FFFFFF;
+    font-size: 16pt;
+    box-sizing: border-box;
+    width: 25%;
+    margin-bottom: 50px;
+}
